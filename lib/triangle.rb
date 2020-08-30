@@ -10,7 +10,8 @@ class Triangle
   end
   
   def kind
-    
+    if one + two == two + three
+      
   end
   
 end
