@@ -11,7 +11,7 @@ class Triangle
   
   def kind
     check_if_valid
-    if one == two && two + three
+    if one == two && two == three
       :equilateral
     elsif one == two || two == three || one == three
       :isosceles 
