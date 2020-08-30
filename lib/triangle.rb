@@ -25,7 +25,8 @@ class Triangle
       raise TriangleError
     elsif one + two <= three || one + three <= two || two + three <= one
       raise TriangleError
-    else
+    elsif one <= 0 or two <= 0 or three <= 0 
+      raise TriangleError
     end
   end
   
