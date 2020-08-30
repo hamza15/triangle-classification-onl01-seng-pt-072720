@@ -21,9 +21,7 @@ class Triangle
   end
   
   def check_if_valid
-    if one == two && two == three
-      raise TriangleError
-    elsif one + two < three || one + three < two || two + three < one
+    if one + two < three || one + three < two || two + three < one
       raise TriangleError
     elsif one <= 0 or two <= 0 or three <= 0 
       raise TriangleError
