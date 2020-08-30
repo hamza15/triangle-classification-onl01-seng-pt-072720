@@ -11,7 +11,8 @@ class Triangle
   
   def kind
     if one + two == two + three
-      
+      :equilateral
+    elsif 
   end
   
 end
