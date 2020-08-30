@@ -24,6 +24,7 @@ class Triangle
     if one == two && two == three
       raise TriangleError
     
+    
   end
   
 end
