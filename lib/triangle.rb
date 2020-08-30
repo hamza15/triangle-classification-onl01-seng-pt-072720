@@ -20,6 +20,11 @@ class Triangle
     end
   end
   
+  def check_if_valid(one, two, three)
+    
+    
+  end
+  
 end
 
 class TriangleError < StandardError
