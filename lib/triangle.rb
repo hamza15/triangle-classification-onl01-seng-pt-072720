@@ -22,7 +22,7 @@ class Triangle
   
   def check_if_valid(one, two, three)
     if one == two && two == three
-      raise
+      raise TriangleError
     
   end
   
