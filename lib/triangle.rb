@@ -21,7 +21,8 @@ class Triangle
   end
   
   def check_if_valid(one, two, three)
-    
+    if one == two && two == three
+      raise
     
   end
   
