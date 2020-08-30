@@ -10,6 +10,7 @@ class Triangle
   end
   
   def kind
+    check_if_valid
     if one + two == two + three
       :equilateral
     elsif one == two || two == three || one == three
